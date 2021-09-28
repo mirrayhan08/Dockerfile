@@ -1,0 +1,2 @@
+docker run -d --name=cont_dns --dns=127.0.0.1   --publish=53:53/udp --publish=53:53 img_dns
+
